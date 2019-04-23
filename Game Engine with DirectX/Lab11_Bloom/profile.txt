@@ -1,0 +1,4 @@
+name,	avg,max
+delay_loop,	12.662820,	13.546666
+Game_Update,	1.583908,	2.196148
+Game_Render,	0.655320,	34.336000

@@ -1,0 +1,108 @@
+{
+    "metadata": {
+        "type": "itplevel",
+        "version": 2
+    },
+
+    "camera": {
+        "position": [ -200.0, 0.0, 100.0 ],
+        "rotation": [ 0.0, 0.0, 0.0, 1.0 ]
+    },
+
+    "lightingData": {
+        "ambient": [ 0.1, 0.1, 0.1 ],
+        "pointLights": [
+        ]
+    },
+
+    "renderObjects": [
+        {
+            "position": [ 0.0, 0.0, 50.0 ],
+            "rotation": [ 0.0, 0.0, 0.0, 1.0 ],
+            "scale": 0.5,
+            "components": [
+                {
+                    "type": "DirLight",
+                    "color": [ 1.0, 1.0, 1.0 ],
+                    "direction": [ -1.0, 0.5, 0.25 ]
+                }
+            ]
+        },
+        {
+            "position": [ 0.0, 0.0, 0.0 ],
+            "rotation": [ 0.0, 0.0, 0.0, 1.0 ],
+            "scale": 5.0,
+            "mesh": "Assets/Meshes/Platform.itpmesh2",
+            "components": [
+                {
+                    "type": "Collision",
+                    "min": [ -50.0, -50.0, -1.0 ],
+                    "max": [ 50.0, 50.0, 0.0 ]
+                }
+            ]
+        },
+        {
+            "position": [ 650.0, 0.0, 0.0 ],
+            "rotation": [ 0.0, 0.0, 0.0, 1.0 ],
+            "scale": 5.0,
+            "mesh": "Assets/Meshes/Platform.itpmesh2",
+            "components": [
+                {
+                    "type": "Collision",
+                    "min": [ -50.0, -50.0, -1.0 ],
+                    "max": [ 50.0, 50.0, 0.0 ]
+                }
+            ]
+        },
+        {
+            "position": [ 0.0, 650.0, 0.0 ],
+            "rotation": [ 0.0, 0.0, 0.0, 1.0 ],
+            "scale": 5.0,
+            "mesh": "Assets/Meshes/Platform.itpmesh2",
+            "components": [
+                {
+                    "type": "Collision",
+                    "min": [ -50.0, -50.0, -1.0 ],
+                    "max": [ 50.0, 50.0, 0.0 ]
+                }
+            ]
+        },
+        {
+            "position": [ 650.0, 650.0, 0.0 ],
+            "rotation": [ 0.0, 0.0, 0.0, 1.0 ],
+            "scale": 5.0,
+            "mesh": "Assets/Meshes/Platform.itpmesh2",
+            "components": [
+                {
+                    "type": "Collision",
+                    "min": [ -50.0, -50.0, -1.0 ],
+                    "max": [ 50.0, 50.0, 0.0 ]
+                }
+            ]
+        },
+        {
+            "position": [ 0.0, 0.0, 0.0 ],
+            "rotation": [ 0.0, 0.0, 0.0, 1.0 ],
+            "scale": 1.0,
+            "mesh": "Assets/Meshes/SK_Mannequin.itpmesh2",
+            "components": [
+                {
+                    "type": "Player",
+                    "skeleton": "Assets/Anims/SK_Mannequin.itpskel",
+                    "animations": [
+                        [ "idle", "Assets/Anims/ThirdPersonIdle.itpanim2" ],
+                        [ "run", "Assets/Anims/ThirdPersonRun.itpanim2" ],
+                        [ "jumpStart", "Assets/Anims/ThirdPersonJump_Start.itpanim2" ],
+                        [ "jump", "Assets/Anims/ThirdPersonJump_Loop.itpanim2" ],
+                        [ "land", "Assets/Anims/ThirdPersonJump_End.itpanim2" ],
+                        [ "fall", "Assets/Anims/ThirdPersonJump_Loop.itpanim2" ]
+                    ]
+                },
+                {
+                    "type": "FollowCam",
+                    "offset": [ -200.0, 0.0, 100.0 ]
+                }
+            ]
+        }
+    ]
+}
