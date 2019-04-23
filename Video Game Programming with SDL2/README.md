@@ -1,10 +1,20 @@
-# ITP 380 Labs - Fall 2017 #
+# List of Games
+This folder holds all of the games I coded with C++ using SDL2. These games go over some key concepts in video game programming such as: 3D math, update loop, game state, path finding, etc.
 
-### EDIT BELOW ###
-Name: Tianmu Lei
+Below you'll find a list describing each game:
 
-Email: tianmul@usc.edu
+Lab02: Pong
 
-Section: T/Th 7-9
+Lab03: Astroid
 
-Platform: Mac
+Lab04: Beakthrough
+
+Lab05: 2D Platformer
+
+Lab06: 2D Endless Runner
+
+Lab07: 2D Tower Defense
+
+Lab08: 3D Tanks
+
+Lab09 - Lab12: 3D Parkour
