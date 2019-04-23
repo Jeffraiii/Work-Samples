@@ -1,0 +1,5 @@
+﻿  imageIO.cpp
+  hw3.cpp
+c:\users\jeffrey\downloads\hw3-startercode-vs2015\hw3-startercode\hw3-startercode\hw3.cpp(488): warning C4244: 'argument': conversion from 'double' to 'unsigned char', possible loss of data
+LINK : fatal error C1047: The object or library file '..\external\jpeg-9a-win32\Release\jpeg.lib' was created with an older compiler than other objects; rebuild old objects and libraries
+LINK : fatal error LNK1257: code generation failed

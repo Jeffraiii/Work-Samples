@@ -1,0 +1,1 @@
+Please use keys 1, 2, and 3 to switch between points mode, wireframe mode, and triangle mode

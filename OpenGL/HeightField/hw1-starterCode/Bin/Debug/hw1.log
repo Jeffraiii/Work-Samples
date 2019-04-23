@@ -1,0 +1,164 @@
+﻿  hw1.cpp
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(70): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(71): warning C4018: '<': signed/unsigned mismatch
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(72): warning C4018: '<': signed/unsigned mismatch
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(76): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(77): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(86): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(87): warning C4018: '<': signed/unsigned mismatch
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(88): warning C4018: '<': signed/unsigned mismatch
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(93): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(94): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(101): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(102): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(107): warning C4018: '<': signed/unsigned mismatch
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(108): warning C4018: '<': signed/unsigned mismatch
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(113): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(114): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(121): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(122): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(130): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(131): warning C4018: '<': signed/unsigned mismatch
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(132): warning C4018: '<': signed/unsigned mismatch
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(136): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(137): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(138): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(144): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(145): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(146): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(152): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(153): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(154): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(160): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(161): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(162): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(168): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(169): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(170): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(176): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(177): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(178): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(286): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\jeffrey\desktop\kit\420-transfer\assign1_coreopengl_startercode\hw1-startercode\hw1.cpp(286): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  jpeg.lib(jerror.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Finished generating code
+pipelineProgram.obj : warning LNK4204: 'C:\Users\Jeffrey\Desktop\kit\420-transfer\assign1_coreOpenGL_starterCode\hw1-starterCode\Bin\Debug\vc141.pdb' is missing debugging information for referencing module; linking object as if no debug info
+openGLMatrix.obj : warning LNK4204: 'C:\Users\Jeffrey\Desktop\kit\420-transfer\assign1_coreOpenGL_starterCode\hw1-starterCode\Bin\Debug\vc141.pdb' is missing debugging information for referencing module; linking object as if no debug info
+basicPipelineProgram.obj : warning LNK4204: 'C:\Users\Jeffrey\Desktop\kit\420-transfer\assign1_coreOpenGL_starterCode\hw1-starterCode\Bin\Debug\vc141.pdb' is missing debugging information for referencing module; linking object as if no debug info
+imageIO.obj : warning LNK4204: 'C:\Users\Jeffrey\Desktop\kit\420-transfer\assign1_coreOpenGL_starterCode\hw1-starterCode\Bin\Debug\vc141.pdb' is missing debugging information for referencing module; linking object as if no debug info
+  hw1.vcxproj -> C:\Users\Jeffrey\Desktop\kit\420-transfer\assign1_coreOpenGL_starterCode\hw1-starterCode\\Bin\Debug\hw1.exe
