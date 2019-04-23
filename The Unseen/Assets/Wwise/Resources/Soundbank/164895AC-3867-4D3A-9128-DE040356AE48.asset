@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c33d8a4c52a724f13a4b02cd021b334c, type: 3}
+  m_Name: 164895AC-3867-4D3A-9128-DE040356AE48
+  m_EditorClassIdentifier: 
+  objectName: Unseen_Sounbank
+  id: 3383019601
+  guid: 164895AC-3867-4D3A-9128-DE040356AE48

@@ -1,0 +1,458 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a067d4dec123648b09d0fa7c3487ff19, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 52a5f0535070d342854e0863be7a786d
+    m_lastTime: -8586609352874775808
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 6faf387b5c5f4e469ba621e5fd0efbfa
+    m_lastTime: -8586609352874775808
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: e56ffb9feaf6b7498f9f72578dd93759
+    m_lastTime: -8586596182244775808
+    List:
+    - name: Unseen_Sounbank
+      guid: ac95481667383a4d9128de040356ae48
+      id: 3383019601
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Unseen_Sounbank
+        ObjectType: 7
+      Path: Default Work Unit/Unseen_Sounbank
+  EventWwu:
+  - PhysicalPath: Events/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 0f52bc0814a27f4388f7843705f46cbf
+    m_lastTime: -8586589096074775808
+    List:
+    - name: Play_Charge
+      guid: d84e8268d771b84098627928f786e338
+      id: 1543804514
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Charge
+        ObjectType: 3
+      Path: Default Work Unit/Play_Charge
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Dark
+      guid: 1b5f50002769684787fefca4cd0e4ed4
+      id: 2228564942
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Dark
+        ObjectType: 3
+      Path: Default Work Unit/Play_Dark
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Light
+      guid: b491f404c9ff2044b84c75d2e325d4c8
+      id: 456848542
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Light
+        ObjectType: 3
+      Path: Default Work Unit/Play_Light
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Menu
+      guid: 42bb85d15591814a86151716911dbab3
+      id: 1278378707
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Menu
+        ObjectType: 3
+      Path: Default Work Unit/Play_Menu
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Success
+      guid: 92b4dee0af514249aee4310e0a68708a
+      id: 3943614907
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Success
+        ObjectType: 3
+      Path: Default Work Unit/Play_Success
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Set_State_Dark
+      guid: 0f78bc69de3e9243a3e5516848606234
+      id: 3107790424
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Set_State_Dark
+        ObjectType: 3
+      Path: Default Work Unit/Set_State_Dark
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Set_State_Dark_Red
+      guid: 8527637c40b410498f4421f237c1f238
+      id: 2110256708
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Set_State_Dark_Red
+        ObjectType: 3
+      Path: Default Work Unit/Set_State_Dark_Red
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Set_State_Failure
+      guid: aef51f16294e404da4d39a31238c50a9
+      id: 2151809242
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Set_State_Failure
+        ObjectType: 3
+      Path: Default Work Unit/Set_State_Failure
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Set_State_Light
+      guid: cb2c9dca509e8042bc248d9ccf70450e
+      id: 1096085496
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Set_State_Light
+        ObjectType: 3
+      Path: Default Work Unit/Set_State_Light
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Set_State_Light_Red
+      guid: 57d7f5be637a1c478af1ec327dac90de
+      id: 972359204
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Set_State_Light_Red
+        ObjectType: 3
+      Path: Default Work Unit/Set_State_Light_Red
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_All
+      guid: 903907e28b93564d89bdd3b604f88598
+      id: 452547817
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_All
+        ObjectType: 3
+      Path: Default Work Unit/Stop_All
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Charge
+      guid: f4570363f7b7da45845d7f8ac36fcbe5
+      id: 805241836
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_Charge
+        ObjectType: 3
+      Path: Default Work Unit/Stop_Charge
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Trigger_Blue_Switch_Off
+      guid: 26d8607dfde4bb45b078bb164e5e0c3f
+      id: 3307288359
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Trigger_Blue_Switch_Off
+        ObjectType: 3
+      Path: Default Work Unit/Trigger_Blue_Switch_Off
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Trigger_Blue_Switch_On
+      guid: 0e6d4725c09bc2448095fd6f0852f8bd
+      id: 1315289171
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Trigger_Blue_Switch_On
+        ObjectType: 3
+      Path: Default Work Unit/Trigger_Blue_Switch_On
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Trigger_Charge_Pickup
+      guid: dc3b1ec2e3f46048a1fba40d18c76838
+      id: 270730741
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Trigger_Charge_Pickup
+        ObjectType: 3
+      Path: Default Work Unit/Trigger_Charge_Pickup
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Trigger_Menu_Move
+      guid: 804c92f0365cbc439540fd999c1bcaef
+      id: 2690873729
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Trigger_Menu_Move
+        ObjectType: 3
+      Path: Default Work Unit/Trigger_Menu_Move
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Trigger_Menu_Select
+      guid: 5982d26bace566469330fe2e86f6d495
+      id: 654743850
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Trigger_Menu_Select
+        ObjectType: 3
+      Path: Default Work Unit/Trigger_Menu_Select
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Trigger_Yellow_Switch_Off
+      guid: 490ecff6dd2ab846b1a1837fb890c056
+      id: 1301737623
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Trigger_Yellow_Switch_Off
+        ObjectType: 3
+      Path: Default Work Unit/Trigger_Yellow_Switch_Off
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Trigger_Yellow_Switch_On
+      guid: 2f70d58e50f63c4f9c103f1e93d2d463
+      id: 3393185251
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Trigger_Yellow_Switch_On
+        ObjectType: 3
+      Path: Default Work Unit/Trigger_Yellow_Switch_On
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 7674b2503bab194bad65323660a14c0b
+    m_lastTime: -8586596194054775808
+    List:
+    - name: Distance_To_Enemy
+      guid: 37d8e8ead729c24b9d54f9824d8d8f07
+      id: 636211493
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Distance_To_Enemy
+        ObjectType: 13
+      Path: Default Work Unit/Distance_To_Enemy
+  StateWwu:
+  - PhysicalPath: States/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: c0242d4fc75eaf46b683c571d6521ba1
+    m_lastTime: -8586596194054775808
+    List:
+    - name: Player_State
+      guid: 37abf78b6df986498adffdca7fcc6b36
+      id: 4071417932
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Player_State
+        ObjectType: 9
+      Path: Default Work Unit/Player_State
+      values:
+      - name: Dark
+        guid: c03d0b1d69027c449b4783440e6c1fb9
+        id: 1925914845
+        PathAndIcons:
+        - ElementName: Dark
+          ObjectType: 8
+      - name: Dark_Red
+        guid: 246a8c84afac734db82cdc7518eb5d7d
+        id: 1336982901
+        PathAndIcons:
+        - ElementName: Dark_Red
+          ObjectType: 8
+      - name: Failure
+        guid: 5fa9d5d51e3fa343b303838753dd2f01
+        id: 3878839773
+        PathAndIcons:
+        - ElementName: Failure
+          ObjectType: 8
+      - name: Light
+        guid: 103066f69df28648bca6abb7a5b94ada
+        id: 1935470627
+        PathAndIcons:
+        - ElementName: Light
+          ObjectType: 8
+      - name: Light_Red
+        guid: f99d7c5456a3684aadd610e4d797261d
+        id: 3321404123
+        PathAndIcons:
+        - ElementName: Light_Red
+          ObjectType: 8
+      - name: Menu
+        guid: 8adf0b949ae110419512254ef8748bc0
+        id: 2607556080
+        PathAndIcons:
+        - ElementName: Menu
+          ObjectType: 8
+      - name: None
+        guid: 569660e3461a474d9a40a397fd449a89
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: Success
+        guid: 746579a570d3394fa75e8c6b2da841ed
+        id: 3625060726
+        PathAndIcons:
+        - ElementName: Success
+          ObjectType: 8
+    - name: Teleport_Charge
+      guid: 8baef227aba7dd48b3959c9e19b1dd21
+      id: 2607312363
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Teleport_Charge
+        ObjectType: 9
+      Path: Default Work Unit/Teleport_Charge
+      values:
+      - name: None
+        guid: 735926a9d1a43b419fb184500770b1b0
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: On
+        guid: c082a7adaee64545b695291db695ea1d
+        id: 1651971902
+        PathAndIcons:
+        - ElementName: On
+          ObjectType: 8
+  SwitchWwu:
+  - PhysicalPath: Switches/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 7f18c5268f076b44ac42f4695a3f1dfd
+    m_lastTime: -8586609352874775808
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 248c596e17d4524894da2b859ac7661f
+    m_lastTime: -8586596238034775808
+    List:
+    - name: Blue_Switch_Off
+      guid: da2c6a3af2e17c4ca63b325b15f3e08f
+      id: 3502107582
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Blue_Switch_Off
+        ObjectType: 14
+      Path: Default Work Unit/Blue_Switch_Off
+    - name: Blue_Switch_On
+      guid: 4b0601845237c840ac45f1f2d7fcf644
+      id: 1162030016
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Blue_Switch_On
+        ObjectType: 14
+      Path: Default Work Unit/Blue_Switch_On
+    - name: Charge_Pickup
+      guid: c1a2b01310125e43ba8eb75360dd9a27
+      id: 2057189780
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Charge_Pickup
+        ObjectType: 14
+      Path: Default Work Unit/Charge_Pickup
+    - name: Menu_Move
+      guid: b762a999e88b424d98cdcd1afcef9f9e
+      id: 1927068452
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Menu_Move
+        ObjectType: 14
+      Path: Default Work Unit/Menu_Move
+    - name: Menu_Select
+      guid: 0c10db8c20fcc247af5ba608232a03ef
+      id: 4203375351
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Menu_Select
+        ObjectType: 14
+      Path: Default Work Unit/Menu_Select
+    - name: Yellow_Switch_Off
+      guid: eeb5577a6ea1744280d54822da001eaa
+      id: 3936253294
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Yellow_Switch_Off
+        ObjectType: 14
+      Path: Default Work Unit/Yellow_Switch_Off
+    - name: Yellow_Switch_On
+      guid: 8b52dd2faa6dfb40bd2d50df7a348bed
+      id: 501677008
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Yellow_Switch_On
+        ObjectType: 14
+      Path: Default Work Unit/Yellow_Switch_On
+  ExpandedItems:
+  - /Unseen
+  - /Unseen/Events
+  - /Unseen/Events/Default Work Unit
+  - /Unseen/SoundBanks
+  - /Unseen/SoundBanks/Default Work Unit
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 

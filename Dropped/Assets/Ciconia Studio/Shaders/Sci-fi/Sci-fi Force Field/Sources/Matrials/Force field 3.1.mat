@@ -1,0 +1,333 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Force field 3.1
+  m_Shader: {fileID: 4800000, guid: fe97fab55fa3bd84798776958d2a884c, type: 3}
+  m_ShaderKeywords: _DOUBLESIDEDREFLECTION_ON _FRESNELINVERT_ON _FRESNELONOFFWHENTRANS1_ON
+    _FRESNELONOFF_ON _NODE_2173_ON
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: a2ae741335b35ab4192a0e1e23c84666, type: 3}
+        m_Scale: {x: 0.1, y: 0.3}
+        m_Offset: {x: 0, y: 0}
+    - _Cubemap:
+        m_Texture: {fileID: 8900000, guid: c32731ba68d74ff4d987a712d86ad0f1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 2800000, guid: 62240386bf82003428d4e5954925fdce, type: 3}
+        m_Scale: {x: 1.5, y: 1.5}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveMask:
+        m_Texture: {fileID: 2800000, guid: 3a417feaff9484d4a82c0a1d5971aac3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Distortionmap:
+        m_Texture: {fileID: 2800000, guid: d544c5d8d8f2e204cbf611243d25bb47, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _Distortionmap_copy:
+        m_Texture: {fileID: 2800000, guid: d544c5d8d8f2e204cbf611243d25bb47, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normalmap2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TexAssetMAsk:
+        m_Texture: {fileID: 2800000, guid: 8c38d2e72ca280f4783343ec9c4418f7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaveLineMask:
+        m_Texture: {fileID: 2800000, guid: 3a417feaff9484d4a82c0a1d5971aac3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaveMask:
+        m_Texture: {fileID: 2800000, guid: 3a417feaff9484d4a82c0a1d5971aac3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaveMaskDistortionMask:
+        m_Texture: {fileID: 2800000, guid: 8c38d2e72ca280f4783343ec9c4418f7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_1147:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_1592:
+        m_Texture: {fileID: 2800000, guid: 445d21c22bc877044ab5c4921f32d6c6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_1993:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_2122:
+        m_Texture: {fileID: 2800000, guid: 3a417feaff9484d4a82c0a1d5971aac3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_2876:
+        m_Texture: {fileID: 2800000, guid: 8c38d2e72ca280f4783343ec9c4418f7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_3382:
+        m_Texture: {fileID: 2800000, guid: 8c38d2e72ca280f4783343ec9c4418f7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_3487:
+        m_Texture: {fileID: 2800000, guid: 3a417feaff9484d4a82c0a1d5971aac3, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _node_399:
+        m_Texture: {fileID: 2800000, guid: 445d21c22bc877044ab5c4921f32d6c6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_4311:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_4371:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_5063:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_5285:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_5408:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_569:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_5815:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_6046:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_6880:
+        m_Texture: {fileID: 2800000, guid: 62240386bf82003428d4e5954925fdce, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_6985:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_7039:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_7094:
+        m_Texture: {fileID: 2800000, guid: 445d21c22bc877044ab5c4921f32d6c6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_758:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_8143:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_8180:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_8721:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_8825:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_8840:
+        m_Texture: {fileID: 2800000, guid: d544c5d8d8f2e204cbf611243d25bb47, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_8940:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_8958:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_9083:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_9452:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_9701:
+        m_Texture: {fileID: 2800000, guid: 445d21c22bc877044ab5c4921f32d6c6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_9906:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Ambientlight: 0
+    - _Angle1: 0
+    - _Angle2: -81.27
+    - _Angle3: 0
+    - _AnimationSpeed1: 0.282
+    - _AnimationSpeed2: 0.298
+    - _AnimationSpeed3: 0.05
+    - _BlurReflection: 6.2
+    - _Blurmask: 0
+    - _BottomMultiplier: -1.64
+    - _CausticAngle2: 1
+    - _CausticAnimationSpeed1: 0.046
+    - _CausticAnimationSpeed2: 0.023
+    - _CausticDistortion: 0.1
+    - _CausticDistortion01: 0.1
+    - _CausticIntensityFresnel: 1.191
+    - _CausticSpreadFresnel: 0.05
+    - _ColorSpread: 2
+    - _ColorSpread_copy: 0.48
+    - _Contrast: 11.99
+    - _Contrast_copy: 5.42
+    - _Cutoff: 0.5
+    - _DepthColorIntensity: 0.2
+    - _DepthEdges: 0.25
+    - _Dissolveline: 1.65
+    - _Distortion: 0.085
+    - _DistortionAmount: 4
+    - _DistortionAmount_copy: 0.5
+    - _DistortionSpeed: 227.74
+    - _DistortionSpeed01: 0.1
+    - _DoubleSidedReflection: 0.025
+    - _EdgeAnimationAmount: 2.02
+    - _EdgeColorSpread: 0.77
+    - _EdgeIntensity: 0
+    - _EdgeIntensity_copy: 0.693
+    - _EdgeIntensityline: 0.146
+    - _EdgelineColor: 0.808
+    - _Fresnel: 5.63
+    - _FresnelColorStrength: 1.75
+    - _FresnelContrast: 1.94
+    - _FresnelInvert: 1
+    - _FresnelOnOff: 1
+    - _FresnelOnOffWhenTrans1: 1
+    - _FresnelStrength: -0
+    - _Glossiness: 0.9
+    - _InvertAxis: 0
+    - _InvertCausticMask: 0
+    - _InvertDetailMask: 0
+    - _InvertFresnel: 0
+    - _InvertMask: 0
+    - _Invertaxis: 1
+    - _Invertaxis_copy: 1
+    - _Invertmask: 0
+    - _Invertmask_copy: 0
+    - _LineDissolve: 0.17
+    - _LineSpread: 0.92
+    - _LinearColorspread: 0.92
+    - _LinearDissolve: 6.45
+    - _Linespread: 0
+    - _MaskAmount: 7.27
+    - _MaskAmount_copy: 2.62
+    - _Max: 4.76
+    - _Min: 0
+    - _Multiplicator: 20.8
+    - _Multiplicator_copy: 1
+    - _NormalIntensity: 0.864
+    - _NormalIntensity1: 0
+    - _NormalIntensity2: 1
+    - _ReflectionIntensity: 4
+    - _Refraction: 0.157
+    - _SharpenEdgeblendBottom: 0
+    - _SharpenEdgeblendTop: 0.42
+    - _Smooth: 0
+    - _SmoothEdge: 0
+    - _SmoothMask: 0
+    - _SpecularIntensity: 0.2
+    - _Speed: 0
+    - _SurfaceSpreadBottom: 0.416
+    - _SurfaceSpreadTop: 0.483
+    - _SwitchYtoZaxis: 0
+    - _SwitchYtoZaxis_copy: 0
+    - _TopMultiplier: 0
+    - _Transparency: 0.719
+    - _TransparencyFresnel: 0.475
+    - _WaveAmout: 885.43
+    - _WaveAmplitude12: 0
+    - _WaveColorIntensity: 0
+    - _WaveDetailIntensity: 0.25
+    - _WaveSpeed: 5
+    - _Waveamplitude: 8.12
+    - _Waveamplitude12: 8.27
+    - __Refraction_copy: 0.2
+    - __Transparency: 0.425
+    - _causticAngle1: -0.797
+    - _node_1555: -10
+    - _node_1830: 0.23
+    - _node_2173: 1
+    - _node_2337: 1.1
+    - _node_2502: 0.25
+    - _node_2695: 3.3
+    - _node_3174: 0.3
+    - _node_3259: 0.7
+    - _node_3468: 2.28
+    - _node_4314: 0
+    - _node_5003: 0.515
+    - _node_5912: 0
+    - _node_6299: 1
+    - _node_811: 6.25
+    - _node_8205: 0.016
+    - _node_9655: 0.586
+    - _node_9891: 1.1
+    m_Colors:
+    - _CausticColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _Colorline: {r: 0.7205882, g: 0.7225153, b: 1, a: 1}
+    - _DetailMaskColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EdgeColor: {r: 0.34939164, g: 0, b: 0.7794118, a: 1}
+    - _EdgeColor_copy: {r: 0.97794116, g: 0.67295444, b: 0.43863538, a: 1}
+    - _FresnelColor: {r: 0.65050405, g: 0.07028548, b: 0.9558824, a: 1}
+    - _LineDissolveColor: {r: 1, g: 0, b: 0, a: 1}
+    - _LineDissolveColor_copy: {r: 1, g: 0, b: 0, a: 1}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _WaveColor: {r: 0, g: 1, b: 0.6275861, a: 1}
+    - _WaveColorControledByNormalmap: {r: 1, g: 1, b: 1, a: 1}
+    - _WaveColorControledbynormalmap: {r: 1, g: 1, b: 1, a: 1}
+    - __EmissiveDepthColor: {r: 1, g: 1, b: 1, a: 1}
+    - _node_4567: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _node_4894: {r: 1, g: 0, b: 0, a: 1}
+    - _node_6148: {r: 0.86764705, g: 0.17863323, b: 0.17863323, a: 1}
+    - _node_6481: {r: 0.7352941, g: 0.24870244, b: 0.24870244, a: 1}
+    - _node_7882: {r: 1, g: 0, b: 0, a: 1}

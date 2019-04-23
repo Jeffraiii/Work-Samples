@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/AnimationTest.unity
+    guid: c85266e7970f340e7ae693ce420a70d7
+  - enabled: 1
+    path: Assets/Scenes/Tutorial_DarkState.unity
+    guid: 6e16745da84598d4cbf62ecb054b1fdd
+  - enabled: 1
+    path: Assets/Scenes/Tutorial_LightState.unity
+    guid: f00cceec15e27c44b9d6ac80dbfe14e8
+  - enabled: 1
+    path: Assets/Scenes/Tutorial_Teleport.unity
+    guid: bd8b394f26ec1b64b9d019b7f032aa7d
+  - enabled: 1
+    path: Assets/Scenes/Tutorial_Switch.unity
+    guid: 8203cd1028942c44aa051042896b433b
+  - enabled: 1
+    path: Assets/Scenes/Tutorial_Guard.unity
+    guid: 3e90ee5464e593940a4c76d63e044987
+  - enabled: 1
+    path: Assets/Scenes/JeffreyScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Level 2.unity
+    guid: 40d783f74ef1e234caa8bf137a7e0cae
+  - enabled: 1
+    path: Assets/Scenes/Level 3.unity
+    guid: 0d3bc01b26801f442b07ce0af25dfa66
+  - enabled: 1
+    path: Assets/Scenes/Credit.unity
+    guid: fa9c9aafa136d3f4185462acc9d163f8
+  - enabled: 1
+    path: Assets/Scenes/Controll_Instruction.unity
+    guid: e060dc041af19334db64463ce35f1555
+  m_configObjects: {}
