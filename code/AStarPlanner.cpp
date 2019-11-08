@@ -88,7 +88,6 @@ Path AStarPlanner::find_path(int agent_id, const list<Constraint>& constraints) 
                     }
                     else{
                         if (agent_id == get<0>(c) && curr->location == get<1>(c) && next->location == get<2>(c) && next->timestep == get<3>(c)){
-                            std::cout << "hit" << std::endl;
                             delete next;
                             next = nullptr;
                             break;

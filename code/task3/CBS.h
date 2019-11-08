@@ -24,7 +24,7 @@ class CBS {
 public:
     vector<Path> find_solution();
     explicit CBS(const MAPFInstance& ins): a_star(ins) {}
-    void find_collision(vector<Path> paths);
+    list<Constraint> find_collision(vector<Path> paths);
     ~CBS();
 
 private:
