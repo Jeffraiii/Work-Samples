@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/TheJeffrey/Downloads/code/AStarPlanner.cpp
+AStarPlanner.h
+/Users/TheJeffrey/Downloads/code/AStarPlanner.h
+queue
+-
+iostream
+-
+unordered_map
+-
+algorithm
+-
+
+/Users/TheJeffrey/Downloads/code/AStarPlanner.h
+MAPFInstance.h
+/Users/TheJeffrey/Downloads/code/MAPFInstance.h
+ostream
+-
+
+/Users/TheJeffrey/Downloads/code/MAPFInstance.h
+vector
+-
+list
+-
+string
+-
+

@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(lldb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "/Users/TheJeffrey/Downloads/code/task1/task1",
+            "args": ["task1/exp1.txt", "task1/exp1_paths.txt"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "logging": { "trace": true, "traceResponse": true },
+            "setupCommands": [
+                {
+                "description": "Enable pretty-printing for lldb",
+                "text": "-enable-pretty-printing",
+                "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}
