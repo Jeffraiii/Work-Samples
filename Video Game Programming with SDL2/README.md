@@ -7,7 +7,7 @@ Lab02: Pong
 
 Lab03: Astroid
 
-Lab04: Beakthrough
+Lab04: Breakout
 
 Lab05: 2D Platformer
 
