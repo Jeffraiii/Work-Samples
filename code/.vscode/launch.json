@@ -8,14 +8,14 @@
             "name": "(lldb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "/Users/TheJeffrey/Downloads/code/task1/task1",
-            "args": ["task1/exp1.txt", "task1/exp1_paths.txt"],
+            "program": "/Users/TheJeffrey/Downloads/code/task3/task3",
+            "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb",
-            "logging": { "trace": true, "traceResponse": true },
+            "logging": { "trace": false, "traceResponse": false },
             "setupCommands": [
                 {
                 "description": "Enable pretty-printing for lldb",

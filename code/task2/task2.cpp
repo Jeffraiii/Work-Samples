@@ -21,27 +21,26 @@ int main(int argc, char *argv[]) {
     // assign priority ordering to agents
     // By default, we use the index ordering of the agents where
     // the first always has the highest priority.
-    list<int> priorities;
+    vector<int> priorities;
     for (int i = 0; i < ins.num_of_agents; i++) {
         priorities.push_back(i);
     }
 
     // plan paths
-    for (int i : priorities) {
+    for (int i = 0; i < priorities.size(); i++) {
         // TODO: Transform already planned paths into constraints
         list<Constraint> constraints;
-        if (i == 1){
-            for (int index = 0; index < paths[0].size(); index++){
-                constraints.push_back(make_tuple(1, paths[0][index], -1, index));
-                
+        if (i > 0){
+            for (int j = 0; j < i; j++){
+                for (int index = 0; index < paths[priorities[j]].size(); index++){
+                    constraints.push_back(make_tuple(i, paths[priorities[j]][index], -1, index));
+                    
+                }
+                for (int index = 0; index < paths[priorities[j]].size() - 1; index++){
+                    constraints.push_back(make_tuple(i, paths[priorities[j]][index + 1], paths[priorities[j]][index], index + 1));
+                }
+                constraints.push_back(make_tuple(i, paths[priorities[j]][paths[priorities[j]].size() - 1], -2, paths[priorities[j]].size() - 1));
             }
-            for (int index = 0; index < paths[0].size() - 1; index++){
-                constraints.push_back(make_tuple(1, paths[0][index + 1], paths[0][index], index + 1));
-//                constraints.push_back(make_tuple(1, paths[0][index], paths[0][index - 1], index));
-            }
-            constraints.push_back(make_tuple(1, paths[0][paths[0].size() - 1], -2, paths[0].size() - 1));
-//            constraints.push_back(make_tuple(1, 10, 9, 2));
-//            constraints.push_back(make_tuple(1, 10, 11, 2));
         }
         //  Replace the following line with something like paths[i] = a_star.find_path(i, constraints);
         paths[i] = a_star.find_path(i, constraints);
@@ -57,7 +56,7 @@ int main(int argc, char *argv[]) {
     int sum = 0;
     for (int i = 0; i < ins.num_of_agents; i++) {
         cout << "a" << i << ": " << paths[i] << endl;
-        sum += paths[i].size();
+        sum += paths[i].size() - 1;
     }
     cout << "Sum of cost: " << sum << endl;
 

@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+../AStarPlanner.h
+MAPFInstance.h
+../MAPFInstance.h
+ostream
+-
+
+../MAPFInstance.h
+vector
+-
+list
+-
+string
+-
+
 /Users/TheJeffrey/Downloads/code/AStarPlanner.cpp
 AStarPlanner.h
 /Users/TheJeffrey/Downloads/code/AStarPlanner.h
@@ -30,5 +44,17 @@ vector
 list
 -
 string
+-
+
+/Users/TheJeffrey/Downloads/code/task2/task2.cpp
+iostream
+-
+fstream
+-
+MAPFInstance.h
+/Users/TheJeffrey/Downloads/code/task2/MAPFInstance.h
+AStarPlanner.h
+/Users/TheJeffrey/Downloads/code/task2/AStarPlanner.h
+tuple
 -
 

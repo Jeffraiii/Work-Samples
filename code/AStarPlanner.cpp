@@ -42,7 +42,7 @@ Path AStarPlanner::find_path(int agent_id, const list<Constraint>& constraints) 
 
     Path path;
     while (!open.empty()) {
-        if (all_nodes.size() > ins.map_size()){
+        if (all_nodes.size() > ins.map_size() * 4){
             path.clear();
             break;
         }
@@ -110,5 +110,13 @@ Path AStarPlanner::find_path(int agent_id, const list<Constraint>& constraints) 
     for (auto n : all_nodes)
         delete n.second;
 
+    int count = 0;
+    for (int i = path.size() - 1;i>=0;i--){
+        if (path[i] == path[i-1]){
+            count++;
+        }
+        else break;
+    }
+    for (int i =0; i<count;i++) path.pop_back();
     return path;
 }
